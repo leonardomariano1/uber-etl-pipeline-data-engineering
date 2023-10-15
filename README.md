@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Uber Data Analytics project, a modern data engineering endeavor that delves into Uber data using a diverse set of tools and technologies. We leverage Google Cloud Platform (GCP), Python, Compute Instances, Mage Data Pipeline Tool, BigQuery, and Looker Studio to extract valuable insights from this dataset.
+Welcome to the Uber Data Analytics project, a modern data engineering endeavor that delves into Uber data using a diverse set of tools and technologies. We leverage Google Cloud Platform (GCP), Python, Compute Instances, Mage Data Pipeline Tool, BigQuery, and Looker Studio to extract valuable insights from this dataset. This README will provide you with a detailed overview of the project's architecture, technologies, and the critical role played by BigQuery Tables.
 
 ![Project Architecture](architecture.jpg)
 
@@ -12,13 +12,21 @@ We have employed the following technologies in this project:
 
 - **Programming Language**: Python
 - **Google Cloud Platform (GCP)**:
-  1. Google Storage
-  2. Compute Instance
-  3. BigQuery
-  4. Looker Studio
+  1. **Google Storage**: For storing various data files and artifacts.
+  2. **Compute Instance**: Used for computation and processing tasks.
+  3. **BigQuery**: The heart of our data analytics, where we store, query, and analyze the Uber dataset.
+  4. **Looker Studio**: A powerful tool for visualizing and reporting on our data.
 - **Modern Data Pipeline Tool**: [Mage Data Pipeline Tool](https://www.mage.ai/)
 
-**Contribute to this Open Source Project:** You can actively participate in enhancing this project by visiting our GitHub repository: [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai).
+BigQuery Tables play a pivotal role in this project, enabling efficient storage and analysis of our dataset. These tables are designed to optimize query performance and facilitate complex data transformations. Below, we delve into the significance of BigQuery Tables and how they enhance our data analytics pipeline.
+
+### BigQuery Tables
+
+<img src="BigQuery_tables.png" alt="BigQuery Tables" width="300">
+
+BigQuery Tables serve as the central repository for our Uber dataset. They are structured to accommodate the various data fields, allowing us to run SQL-like queries to extract meaningful insights. These tables are highly scalable, enabling us to handle large volumes of data efficiently. Whether you need to calculate ride statistics, analyze trip patterns, or assess driver performance, BigQuery Tables are the cornerstone of our data processing.
+
+Each table is meticulously designed, following the schema of our dataset, and organized to streamline our analytical workflows. Whether you are a data analyst, data scientist, or a business stakeholder, the structured nature of our BigQuery Tables simplifies the process of extracting the information you need.
 
 ## Dataset Used
 
@@ -32,4 +40,4 @@ For more details about the dataset, please refer to the following resources:
 
 ![Data Model](data_model.jpeg)
 
-# Thanks for your time! :smiley:
+# Thanks for your time! 😃
